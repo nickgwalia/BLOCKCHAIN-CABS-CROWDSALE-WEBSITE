@@ -1,0 +1,11 @@
+//link to draft blockchaincabs.org website 
+
+
+
+//which will be where the London private hire/black cabs fleets will sign up
+//to the price comparison service. 
+
+//Where passengers book the car/black cab (executivecarsonline.com) draft website has the database at present which 
+//will be added to blockchaincabs.org site for selection of private hire cars, note the black cab option needs to be added.
+
+//blockchaincabs.org will have similar functions as minicabbit.com 
