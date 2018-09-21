@@ -1,1 +1,518 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="zxx">
+<!--<![endif]-->
 
+<head>
+
+    <!-- Basic metas
+    ======================================== -->
+    <meta charset="utf-8">
+    <meta name="author" content="Axilweb">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile specific metas
+    ======================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Page Title
+    ======================================== -->
+    <title>Blockchain Cabs Crowdsale Demo </title>
+
+    <!-- links for favicon
+    ======================================== -->
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="icon/favicon.ico" type="image/x-icon">
+
+    <!-- Icon fonts
+    ======================================== -->
+    <link rel="stylesheet" type="text/css" href="css/basicons.css">
+    <link rel="stylesheet" type="text/css" href="css/crypto-fintech.css">
+
+    <!-- css links
+    ======================================== -->
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/slick-theme.css">
+
+    <!-- Magnific popup -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/magnific-popup.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=1.0.1">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- Responsive styling -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css?v=1.0.1">
+
+</head>
+
+
+<!-- body starts
+============================================ -->
+
+<body>
+
+    <!-- Preloader -->
+    <div class="o-preloader">
+        <div class="o-preloader_inner"></div>
+    </div>
+
+    <!-- Background images -->
+    <img class="banner-poly-bg banner-poly-bg-1" src="images/banner/banner-polygon-1.png" alt="banner polygon">
+    <img class="banner-poly-bg banner-poly-bg-2" src="images/banner/banner-polygon-2.png" alt="banner polygon">
+    <div class="banner-poly-container banner-poly-bg banner-poly-bg-3">
+        <img class="" src="images/banner/banner-polygon-3.png" alt="banner polygon">
+        <span class="sparks spark-1 ripple-out"></span>
+        <span class="sparks spark-2 ripple-out"></span>
+        <span class="sparks spark-3 ripple-out"></span>
+        <span class="sparks spark-4 ripple-out"></span>
+        <span class="sparks spark-5 ripple-out"></span>
+    </div>
+
+    <!-- Body-overlay -->
+    <div class="body-overlay"></div>
+
+    <!-- navbar starts
+============================================ -->
+    <nav class="c-onepage-navbar navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand page-scroll" href="#banner">
+                <img src="images/brand-logo.png" alt="brand logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="toggler-icon-bar bar1"></span>
+                <span class="toggler-icon-bar bar2"></span>
+                <span class="toggler-icon-bar bar3"></span>
+            </button>
+            <!-- End of .navbar-toggler -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" id="onepage-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tokens">Tokens
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn secondary-btn" href="/sale">BUY TOKENS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of .container -->
+    </nav>
+    <!-- End of .navbar -->
+
+
+    <!-- Page-wrapper starts -->
+    <div class="page-wrapper crypto-onepage">
+
+
+        <!-- banner starts
+        ============================================ -->
+        <div id="banner" class="section c-onepage-banner d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md">
+                        <div class="banner-txt">
+                            <h1>Blockchain Cabs
+                                <br>Private Hire & Black Cabs Price Comparison Service.</h1>
+                            <p>Crowdsale
+                                <br>of the BKCC Token on the Ethereum blockchain.
+                            </p>
+                            
+                        </div>
+                        <!-- End of .banner-txt -->
+                    </div>
+                    <!-- End of .col-md -->
+
+                    <div class="col-md">
+                        <div class="countdown-box ml-md-auto">
+                            <h4>Blockchain Cabs ICO ENDS IN</h4>
+                            <div class="countdown">
+                                <div id="clock"></div>
+                                <div class="progress">
+                                    <div class="progress-bar" data-transitiongoal="75"></div>
+                                </div>
+                                <!-- End of .progress -->
+                                <p>423 ETH pledged of 9000 ETH goal</p>
+                                <a href="/sale" class="btn secondary-btn">PURCHASE TOKENS</a>
+                            </div>
+                            <!-- End of .countdown -->
+                        </div>
+                        <!-- End of .countdown-box -->
+                        <div class="radial-bg"></div>
+                    </div>
+                    <!-- End of .col-md -->
+                </div>
+                <!-- End of .row -->
+            </div>
+            <!-- End of .container -->
+        </div>
+        <!-- End of .banner -->
+
+        <!-- c-onepage-product starts
+        ============================================ -->
+        <div id="service" class="section c-onepage-product wow fadeIn">
+            <div class="container">
+                <h2 class="section-title text-center wow fadeIn">Service</h2>
+                <p class="section-subtitle text-center wow fadeIn">
+                    Founded By Ex Uber & Addison Lee Drivers. Private Hire & Black Cab Price Comparison Service For The People Of London. Drivers, Passengers and YOU the Investor will own the company!
+                </p>
+
+                <div class="product-tab">
+                    <nav class="o-common-nav-tab">
+                        <div class="nav nav-tabs" id="product-tab" role="tablist">
+                            <a class="nav-item nav-link active" data-toggle="tab" href="#product-tab-1" role="tab" aria-controls="product-tab-1" aria-selected="true">WEBSITE</a>
+                            <a class="nav-item nav-link" data-toggle="tab" href="#product-tab-2" role="tab" aria-controls="product-tab-2" aria-selected="false">KYC PORTAL</a>
+                            <a class="nav-item nav-link" data-toggle="tab" href="#product-tab-3" role="tab" aria-controls="product-tab-3" aria-selected="false">TOKEN</a>
+                        </div>
+                        <!-- End of .nav-tabs -->
+                    </nav>
+                    <!-- End of .nav -->
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="product-tab-1" role="tabpanel" aria-labelledby="product-tab-1">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <img src="images/website.png" alt="product images" class="img-fluid">
+                                </div>
+                                <!-- End of .col-md-6 -->
+
+                                <div class="col-md-6">
+                                    <div class="o-details-with-title text-left">
+                                        <h3>Blockchain Cabs Price Comparison Draft
+                                            <br>Website - Actual Live Site To Give Prices Forecast January 1st 2019 (</h3>
+                                            //link to blockchaincabs.org
+                                        <p> Le</p>
+                                    </div>
+                                    <!-- End of .o-details-with-title -->
+                                </div>
+                                <!-- End of .col-md-6 -->
+                            </div>
+                            <!-- End of .row -->
+                        </div>
+                        <!-- End of .tab-pane -->
+
+                        <div class="tab-pane fade" id="product-tab-2" role="tabpanel" aria-labelledby="product-tab-2">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 order-md-2 text-right">
+                                    <img src="images/kyc.png" alt="product images" class="img-fluid">
+                                </div>
+                                <!-- End of .col-md-6 -->
+
+                                <div class="col-md-6">
+                                    <div class="o-details-with-title text-left">
+                                        <h3>Full KYC Compliance
+                                            <br>With Our User Registration Portal</h3>
+                                        <p></p>
+                                        <p>Click the "buy tokens" button to start registration</p>
+                                    </div>
+                                    <!-- End of .o-details-with-title -->
+                                </div>
+                                <!-- End of .col-md-6 -->
+                            </div>
+                            <!-- End of .row -->
+                        </div>
+                        <!-- End of .tab-pane -->
+
+                        <div class="tab-pane fade" id="product-tab-3" role="tabpanel" aria-labelledby="product-tab-3">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <img src="images/token.png" alt="product images" class="img-fluid">
+                                </div>
+                                <!-- End of .col-md-6 -->
+
+                                <div class="col-md-6">
+                                    <div class="o-details-with-title text-left">
+                                        <h3><br/>&<br/></h3>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                    <!-- End of .o-details-with-title -->
+                                </div>
+                                <!-- End of .col-md-6 -->
+                            </div>
+                            <!-- End of .row -->
+                        </div>
+                        <!-- End of .tab-pane -->
+                    </div>
+                    <!-- End of .tab-content -->
+                </div>
+                <!-- End of .product-tab -->
+            </div>
+            <!-- End of .container -->
+        </div>
+        <!-- End of .c-onepage-product -->
+
+        <!-- c-onepage-about starts
+        ============================================ -->
+        <div id="about" class="onepage-about-us">
+            <div class="section c-onepage-about d-flex align-items-center">
+                <div class="container">
+                    <div class="o-about-us">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="o-details-with-title text-left wow fadeIn">
+                                    <h2>About</h2>
+                                    <p>Hey everybody! It's Gregory from Dapp University. I teach developers how to build decentralized applications on the Ethereum blockchain. I'm a blockchain technology expert and have extensive experience in client services. Let me build the tools you need to launch your successful crowdsale campaign!</p>
+                                    <ul class="common-list">
+                                        <li>Founders Know The London Private Hire & Taxi Market</li>
+                                        <li>Substantial Contacts With Potential Business Users Of Private Hire & Blck Cab Service</li>
+                                        <li>Ex Uber & Addison Lee Drivers On-Board!</li>
+                                    </ul>
+                                    <!-- End of .common-list -->
+                                </div>
+                                <!-- End of .o-details-with-title -->
+                            </div>
+                            <!-- End of .col-md-6 -->
+
+                            <div class="col-md-6">
+                                <div class="img-container wow fadeIn">
+                                    <img src="images/about_us_video_thumbnail.png" alt="video image" class="img-fluid img-with-shadow img-round">
+                                    <a class="play-overlay video-popup" href="https://www.youtube.com/">
+                                    //add promo youtube video link here
+                                        <span>
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                                <!-- End of .o-video-modal -->
+                            </div>
+                            <!-- End of .col-md-6 -->
+                        </div>
+                        <!-- End of .align-items-center -->
+                    </div>
+                    <!-- End of .o-about-us -->
+                </div>
+                <!-- End of .container -->
+            </div>
+            <!-- End of .c-onepage-about -->
+
+        <!-- c-onepage-roadmap starts
+        ============================================ -->
+        <div id="tokens" class="c-onepage-token">
+            <div class="section o-token-distribution d-flex align-items-center">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <div class="o-distribution text-left wow fadeIn">
+                                <h2>BKCC Tokens</h2>
+                                <p>"Blockchain Cabs" token is a token that runs on the Ethereum network. A maximum of 21 million tokens will be sold in the crowdsale, with a soft cap goal of 9000 ETH. See the distribution chart below to see how the tokens are distributed in the crowdsale.</p>
+
+                                <div class="progressbar-block row">
+                                    <div class="col-md-6">
+                                       <span class="progress-label">Crowdsale: 70%</span>
+                                        <div class="progress bar-1">
+                                            <div class="progress-bar" data-transitiongoal="70"></div>
+                                        </div>
+                                        <!-- End of .progress -->
+                                        <span class="progress-label">Founders Fund: 10%</span>
+                                        <div class="progress bar-2">
+                                            <div class="progress-bar" data-transitiongoal="10"></div>
+                                        </div>
+                                        <!-- End of .progress -->
+                                    </div>
+                                    <!-- End of .col-md-6 -->
+
+                                    <div class="col-md-6">
+                                        <span class="progress-label">Foundation Fund: 10%</span>
+                                        <div class="progress bar-3">
+                                            <div class="progress-bar" data-transitiongoal="10"></div>
+                                        </div>
+                                        <!-- End of .progress -->
+
+                                        <span class="progress-label">Drivers Fund: 10%</span>
+                                        <div class="progress bar-4">
+                                            <div class="progress-bar" data-transitiongoal="10"></div>
+                                        </div>
+                                        <!-- End of .progress -->
+                                    </div>
+                                    <!-- End of .col-md-6 -->
+                                </div>
+                                <!-- End of .progressbar-block -->
+                            </div>
+                            <!-- End of .o-distribution -->
+                        </div>
+                        <!-- End of .col-md-5 -->
+
+                        <div class="col-lg-5">
+                            <div id="chartdiv" class="token-distribution-chart wow fadeIn"></div>
+                        </div>
+                        <!-- End of.col-md-7 -->
+                        <hr>
+                    </div>
+                    <!-- End of .row -->
+                </div>
+                <!-- End of .container -->
+            </div>
+            <!-- End of .token-distribution -->
+        </div>
+        <!-- End of .c-onepage-token -->
+
+        <!-- c-onepage-roadmap starts
+        ============================================ -->
+        <div id="onepage-footer" class="c-onepage-footer  wow fadeIn">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="o-footer-nav">
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <h6>Contact</h6>
+                                <ul class="footer-widget">
+                                    <li>
+                                        <a href="mailto:info@blockchaincabs.com">
+                                            </i>info@blockchaincabs.org
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        
+                                        <br>
+                                    </li>
+                                </ul>
+                                <!-- End of .company-footer-widget -->
+                            </div>
+                            <div class="col-md-2">
+                                <h6>CROWDSALE</h6>
+                                <ul class="footer-widget">
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tokens">Tokens</a>
+                                    </li>
+                                </ul>
+                                <!-- End of .company-footer-widget -->
+                            </div>
+                            <div class="col-md-4">
+                                <h6>ABOUT</h6>
+                                <div class="o-tweet-widget">
+                                    <i
+                                    <</a>
+                                    <p>""</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of .row -->
+                    </div>
+                    <!-- End of .o-footer-nav -->
+
+                    <div class="o-footer-bottom">
+                        <div class="row no-gutters">
+                            <div class="col-md">
+                                <p class="copyright-txt">Copyright &copy; 2018. All rights reserved by
+                                    <a href="index.html"> Blockchain Cabs </a>.</p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="o-follow-us text-md-center">
+                                    <a href="http://" target="_blank" rel="noopener">
+                                        <i class="icon-Facebook"></i>
+                                    </a>
+                                    <a href="http://" target="_blank" rel="noopener">
+                                        <i class="icon-Linkedin"></i>
+                                    </a>
+                                    <a href="http://" target="_blank" rel="noopener">
+                                        <i class="icon-Medium"></i>
+                                    </a>
+                                    <a href="http://" target="_blank" rel="noopener">
+                                        <i class="icon-Twitter2"></i>
+                                    </a>
+                                </div>
+                                <!-- End of .o-follow-us -->
+                            </div>
+                            <div class="col-md">
+                                <div class="o-terms-privacy text-right">
+                                    <a href="#" data-toggle="modal" data-target="#terms-modal"> Terms &amp; Conditions</a> .
+                                    <a href="#" data-toggle="modal" data-target="#privacy-modal"> Privacy Policy</a>
+                                </div>
+                                <!-- End of .o-terms-privacy -->
+                            </div>
+                        </div>
+                        <!-- End of .row -->
+                    </div>
+                    <!-- End of .footer-bottom -->
+                </div>
+                <!-- End of .container -->
+            </div>
+            <!-- End of .footer-content -->
+        </div>
+        <!-- End of .c-onepage-footer -->
+    </div>
+    <!-- End of .page-wrapper -->
+
+
+    <!-- Blog Modal -->
+
+    <div class="modal fade o-blog-modal c-onepage-modal" id="blog-modal-content" tabindex="-1" role="dialog" aria-labelledby="blog-modal-content"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-left">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon-Cross3"></i>
+                    </button>
+
+                    
+
+    <!-- Javascripts
+    ======================================= -->
+    <!-- jQuery -->
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/vendor/jquery-migrate.min.js"></script>
+    <!-- jQuery Easing Plugin -->
+    <script src="js/vendor/easing-1.3.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="js/vendor/fontawesome-all.min.js"></script>
+    <!-- jQuery Countdown plugin -->
+    <script src="js/vendor/jquery.countdown.min.js"></script>
+    <!-- jQuery progressbar plugin -->
+    <script src="js/vendor/jquery.waypoints.min.js"></script>
+    <!-- Bootstrap Progressbar -->
+    <script src="js/vendor/bootstrap-progressbar.min.js"></script>
+    <!-- ImagesLoaded js -->
+    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+    <!-- Slick carousel js -->
+    <script src="js/vendor/slick.min.js"></script>
+    <!-- Magnific popup -->
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    <!-- Charts -->
+    <script src="js/vendor/amcharts.min.js"></script>
+    <script src="js/vendor/pie.min.js"></script>
+    <!-- Bitcoin -->
+    <script src="js/vendor/widget.js"></script>
+    <!-- wow js -->
+    <script src="js/vendor/wow.min.js"></script>
+    <!-- Custom js -->
+    <script src="js/main.js"></script>
+    <!-- Google map -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Cn2XCz3_n_J57QSN_rw6gwtQDWQJ3MM&callback=initMap">
+    </script>
+
+</body>
+
+</html>
