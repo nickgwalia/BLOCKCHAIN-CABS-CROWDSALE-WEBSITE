@@ -24,7 +24,7 @@
 
 <body class="bg-primary text-white">
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/brand-logo.png" alt="brand logo">
@@ -35,14 +35,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link display-6" href="#">Service <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link display-6" href="#service">Service <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tokens</a>
+              <a class="nav-link" href="#token">Tokens</a>
             </li>
           </ul>
           <a class="btn btn-outline-light btn-sm ml-3" href="#">BUY TOKENS</a>
@@ -51,8 +51,8 @@
     </nav>
   </header>
 
-
-  <div class="jumbotron jumbotron-fluid bg-primary text-white mt-5">
+  <div class="main">
+  <div class="jumbotron jumbotron-fluid bg-primary text-white">
     <div class="container">
       <div class="row">
         <div class="col-md">
@@ -86,8 +86,8 @@
     </div>
   </div>
 
-  <div class="container mt-5">
-    <div class="row" id="services">
+  <div class="container section"  id="service">
+    <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Service</h2>
         <p class="lead">
@@ -167,8 +167,8 @@
     </div>
   </div>
 
-  <div class="container mt-5 pt-5 pb-5">
-    <div class="row" id="about">
+  <div class="container section" id="about">
+    <div class="row">
       <div class="col-lg-12">
         <div class="row">
           <div class="col-md-6">
@@ -184,16 +184,16 @@
           </div>
           <div class="col-md-6">
             <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-</div>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container mt-5 pt-5 pb-5">
-    <div class="row" id="token">
+  <div class="container section"  id="token">
+    <div class="row">
       <div class="col-lg-12">
         <div class="row">
           <div class="col-md-7">
@@ -239,7 +239,7 @@
   </div>
 
 
-  <footer class="container mt-5 pt-5 pb-5">
+  <footer class="container section">
     <div class="row" id="contact">
       <div class="col-md-12">
         <div class="row">
@@ -303,7 +303,7 @@
     </div>
   </footer>
 
-
+</div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
