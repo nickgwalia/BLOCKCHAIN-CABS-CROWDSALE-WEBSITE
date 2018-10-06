@@ -1,3 +1,7 @@
 #product-tab-nav .active {
   font-weight: bold;
 }
+
+.token-progress {
+  height: 8px;
+}
