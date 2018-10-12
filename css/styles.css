@@ -1,0 +1,19 @@
+#product-tab-nav .active {
+  font-weight: bold;
+}
+
+.token-progress {
+  height: 8px;
+}
+
+.main {
+  padding-top: 10em;
+}
+
+.section {
+  padding-top: 10em;
+}
+
+.section-inner {
+  padding-top: 2em;
+}
