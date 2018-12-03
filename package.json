@@ -1,0 +1,54 @@
+{
+  "name": "nickcabs",
+  "version": "1.0.0",
+  "description": "Blockchain Crowdsale Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --open --mode development",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgwalia/BLOCKCHAIN-CABS-CROWDSALE-WEBSITE.git"
+  },
+  "keywords": [
+    "Blockchain",
+    "Cabs"
+  ],
+  "author": "Sushant Singh , Nick Walsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickgwalia/BLOCKCHAIN-CABS-CROWDSALE-WEBSITE/issues"
+  },
+  "homepage": "https://github.com/nickgwalia/BLOCKCHAIN-CABS-CROWDSALE-WEBSITE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemailer": "^4.7.0",
+    "nodemon": "^1.18.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-ionicons": "^2.1.6",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "browserify-css": "^0.12.0",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
