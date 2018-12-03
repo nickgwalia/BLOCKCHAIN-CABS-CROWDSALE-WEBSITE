@@ -1,0 +1,121 @@
+@import '_common';
+
+.__Footer
+{
+    position: relative;
+    bottom: 0;
+    background: url('~Images/london.png') no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    background-position-x: 250px;
+    width: 100%;
+    z-index: 1;
+
+    @media screen and (max-width:1334px){
+        &
+        {
+            background: white;
+        }
+    }
+    .container
+    {
+        
+        box-sizing: border-box;
+        padding: 1.5%;
+        width: 100%;
+    
+    footer
+    {
+        @include gridMaker(repeat(auto-fit,minmax(250px,1fr)),'',0.5em);
+        figure
+        {
+            @include AlignCenterFromStart(column,flex-start);
+            color: black;
+            text-align: center;
+            label
+            {
+                margin-left: 3.5%;
+                letter-spacing: 0.6px;
+                font-size: 12px;               
+            }
+            img
+            {
+                @include ResponsiveImage(60%);
+                margin-top:1em; 
+                @include AlignCenterFromStart(column,flex-start);
+            }
+            @media screen  and (max-width:544px){
+                &
+                {
+                    @include AlignCenter(column,center);
+                   
+                   img
+                   {
+                    @include AlignCenter(column,center);
+                   
+                   } 
+                }
+               
+            }
+        }
+
+        .__company
+        {
+            list-style: none;
+            color:black;
+            margin-top:0.4em;
+            width: 95%;
+            &:not(:nth-child(4))
+            {
+                 border-right: 0.0935em solid black;     
+            }
+            @include AlignCenterFromStart(column,flex-start);
+            li
+            {
+                text-align: left;
+                margin-bottom: 0.5em;
+                &:not(:nth-child(1))
+                {
+                    cursor: pointer;
+                }
+                &:not(:nth-child(1)):hover
+                {
+                     color:#f82056;
+                     
+                }
+                &:nth-child(1)
+                {
+                    h1
+                    {
+                        font-size:1.5rem;
+                    }
+                    margin-bottom: 0.8em;
+                }
+            }
+            
+            @media screen and (max-width:800px) {
+                &:not(:nth-child(4))
+                {
+                     border-right:none;     
+                }
+            }
+        }
+     
+    }
+       
+    }
+
+    .__footerTagline
+    {
+        position: relative;
+        bottom: 0;
+        overflow: hidden;
+        width:auto;
+        margin-top:1.5%;
+        font-size:13px;
+        color:black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        @include AlignCenter(row,center);
+    }
+}

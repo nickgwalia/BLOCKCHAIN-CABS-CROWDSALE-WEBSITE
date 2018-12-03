@@ -1,0 +1,82 @@
+@import '_common';
+
+@keyframes RtoL
+{
+    from
+    {
+        transform: translateX(200%);
+    }
+    to
+    {
+        transform: translateX(0%);
+    }
+}
+.__homeFP
+{
+    background: url('~Images/taxi.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-origin: border-box;
+    width: 100%;
+ 
+    .container
+    {
+       background: rgba(1,1,1,0.5);
+       height: inherit;
+       @include gridMaker(repeat(auto-fit,minmax(300px,1fr)),'',0.5em);
+       height: 100vh;
+       .__tagline
+       {
+           padding: 3em;
+           color:white;
+           @include AlignCenterFromStart(column,flex-start);
+           margin-top:3em;
+           box-sizing: border-box;
+           width:60vw;
+           line-height: 15vh;
+           label
+           {
+              h1
+              {
+                  letter-spacing: 1.2px;
+                  text-transform: capitalize;
+                  font-size: 10vmin;
+                  text-align: left;
+              }
+           }
+       }
+       .__mobileView
+       {
+           @include AlignCenterFromStart(column,center);
+           margin-top:3em;
+           figure
+           {
+               img
+               {
+                animation: RtoL 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1;
+                @include ResponsiveImage(100%);
+       
+               }
+           }
+        
+       }
+    }
+}
+
+@media screen and (max-width:620px)
+{
+    .__homeFP
+    {
+        .container
+        {
+            height: auto;
+            .__tagline
+            {
+                margin-top:1em;
+                width: 100%;
+                line-height: 4.5em;
+            }
+        }
+    
+    }
+}

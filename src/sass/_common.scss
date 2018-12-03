@@ -1,0 +1,41 @@
+*,*::after,*::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Oswald', sans-serif;
+}
+
+@mixin gridMaker($columns,$rows,$grid_gap) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-auto-rows: $rows;
+    grid-gap: $grid_gap;
+}
+
+/*direction means row and Column   position means flex-end flex-start and center*/
+
+@mixin AlignCenter($direction,$position) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: $position;
+}
+@mixin AlignCenterFromStart($direction,$position)
+{
+    display: flex;
+    flex-direction: $direction;
+    justify-content: flex-start;
+    align-items: $position;
+}
+@mixin AlignCenterFromEnd($direction,$position)
+{
+    display: flex;
+    flex-direction: $direction;
+    justify-content: flex-end;
+    align-items: $position;
+}
+@mixin ResponsiveImage($width)
+{
+    max-width: 100%;
+    width: $width;
+}

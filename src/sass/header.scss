@@ -1,0 +1,151 @@
+@import 'common';
+
+.NavbarContainer
+{
+ padding: 0.5em;    
+ @include gridMaker(repeat(auto-fit,minmax(250px,1fr)),'',1em);
+ box-shadow: 0 10px 20px -10px #908c8c;
+ z-index: 1000;
+ position: relative;
+ width: 100%;
+ top:0;
+ background: rgba(255,255,255,0.99);
+ .nav_toggleButton
+ {
+     position: absolute;
+     visibility: hidden;
+ }
+ #nav_toggle
+ {
+     display: none;
+ }
+ figure
+ {  
+     @include AlignCenterFromStart(row,center);
+    img
+    {
+        @include ResponsiveImage(25%);
+    }   
+ }
+ nav
+ {
+     position: relative;
+     @include AlignCenterFromEnd(row,center);
+ .navLinks
+ {
+     list-style: none; 
+     @include AlignCenterFromEnd(row,center);
+     margin-right: 1%;
+     li
+     {
+         width: 100%;
+         font-size: 1rem;
+         text-align: center;
+         display: flex;
+         text-transform: uppercase;
+         line-height: 1.2;
+         letter-spacing: 0.5px;
+         white-space: nowrap;
+         margin-right:4%;
+         cursor: pointer;
+         transition:color cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+         
+         &:last-child
+         {
+             box-sizing: border-box;
+             background: #ffda07;
+             color:white;
+             text-align: center;
+             padding: 0.8em 1.2em 0.8em 1.2em;
+             border-radius: 5em;
+             color:black;
+             border:0.12em solid transparent;
+             transition:background cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+             &:hover
+             {
+                background: transparent;
+                border:0.12em solid black;
+                color:black;
+                transition:background cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+             }
+            }
+            
+            &:hover
+            {
+                color:#f82056;
+                transition:color cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+            }
+     }
+    
+ }
+ }
+
+}
+
+@media screen and (max-width:1000px)
+{
+    .NavbarContainer
+    {   z-index: 1000;
+        position: relative;
+        width: 100%;
+        top:0;
+        background: rgba(255,255,255,0.99);
+        .nav_toggleButton
+        {
+            position: absolute;
+            visibility: visible;
+            top:1vh;
+            left: 2%;
+           span
+           {
+               @include AlignCenter(row,center);
+           } 
+        }
+        #nav_toggle
+        {
+        &:checked ~ nav
+        {
+            display: grid;
+            transform: scale(1,1);
+            transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
+        } 
+        }
+        
+        all:unset;
+        display: grid;
+        box-shadow: 0 10px 20px -10px #908c8c;
+        padding: 0.5em;
+        grid-gap:1em;
+        figure
+        {
+            all:unset;
+            @include AlignCenter(row,center);
+        }
+        nav
+        {
+            all:unset;
+            @include AlignCenter(column,center);
+            display: none;
+            transform: scale(1,0);
+            .navLinks
+            {
+                all:unset;
+                @include AlignCenter(column,center);
+               
+                li
+                { 
+                    all:unset;
+                    text-transform: uppercase;
+                    margin-bottom: 0.5em;
+                    text-align: center;
+                    cursor: pointer;
+                }
+                li:hover
+                {
+                    color:#f82056;
+                }
+            }
+        }
+      
+    }
+}
